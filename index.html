@@ -22,19 +22,14 @@
                     <img class="hide-logo" src="img/logo-small.svg" alt="logo">
                     <img class="hide-logo" src="img/logo.svg" alt="logo">
                 </div>
-                <div>
-                    <img src="img/home.svg" alt="home"> 
-                    <span class="hide">Home</span>
-                </div>
-                <div>
-                    <img src="img/search.svg" alt="search"> 
-                    <span class="hide">Cerca</span>
-                </div>
-                <div>
-                    <img src="img/libreria.svg" alt="libreria"> 
-                    <span class="hide">La tua libreria</span>
-                </div>
-                <div class="hide">
+                <nav class="header-nav">
+                    <ul>
+                        <li><img src="img/home.svg" alt="home"><span class="hide">Home</span></li>
+                        <li><img src="img/search.svg" alt="search"><span class="hide">Cerca</span></li>
+                        <li><img src="img/libreria.svg" alt="libreria"><span class="hide">La tua libreria</span></li>
+                    </ul>
+                </nav>
+                <div class="hide header-playlist">
                     <h3>PLAYLIST</h3>
                     <h4><i class="fa-solid fa-plus" style="color: #000;"></i><span>Crea Playlist</span></h4>
                     <ul>
@@ -60,7 +55,110 @@
             </div>
         </header>
         <main>
-            
+            <div class="main-top">
+                <button class="btn">EFFETTUA L'UPGRADE</button>
+            </div>
+            <div class="main-bottom">
+                <nav class="info">
+                    <ul class="row">
+                        <li>
+                            <a href="#">IN EVIDENZA</a>
+                        </li>
+                        <li>
+                            <a href="#">PODCAST</a>
+                        </li>
+                        <li>
+                            <a href="#">CLASSIFICHE</a>
+                        </li>
+                        <li>
+                            <a href="#">GENERI E MOOD</a>
+                        </li>
+                        <li>
+                            <a href="#">NUOVE USCITE</a>
+                        </li>
+                        <li>
+                            <a href="#">SCOPRI</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="played">
+                    <h2>Recently played</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="album">
+                                <div class="album-img">
+                                    <img class="img-fluid primary" src="img/metal_lifting.jpg" alt="Heavy Metal">
+                                    <img class="img-fluid album-overlay" src="img/aquietplace.jpeg" alt="Heavy Metal">
+                                </div>
+                                <div class="album-details">
+                                    <h3>Heavy Metal</h3>
+                                    <h5>Subtitle</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album">
+                                <div class="album-img">
+                                    <img class="img-fluid" src="img/stranger.jpeg" alt="Stranger">
+                                    <div class="album-overlay"></div>
+                                </div>
+                                <div class="album-details">
+                                    <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
+                                    <h5>Kyle Dixon & Michael Stein</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="img/aquietplace.jpeg" alt="A quiet place">
+                            <h3>A quiet place</h3>
+                            <h5>Subtitle</h5>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="img/split.jpeg" alt="Split">
+                            <h3>Split</h3>
+                            <h5>Subtitle</h5>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="img/cure.jpeg" alt="Cure">
+                            <h3>A cure for wellness</h3>
+                            <h5>Subtitle</h5>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="img/sinister.jpeg" alt="Sinister">
+                            <h3>Sinister</h3>
+                            <h5>Subtitle</h5>
+                        </div>
+                    </div>
+                </section>
+                <section class="played">
+                    <h2>Creato parJohn Doe</h2>
+                    <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="img/radar.jpeg" alt="Release Radar">
+                            <h3>Release Radar</h3>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="img/mixdaily.jpeg" alt="Daily Mix 1">
+                            <h3>Daily Mix 1</h3>
+                        </div>
+                    </div>
+                </section>
+                <section class="played">
+                    <h2>Artisti più popolari</h2>
+                    <h5>Più ascolti, più accurati saranno i suggerimenti.</h5>
+                    <div class="row">
+                        <div class="col">
+                            <img class="img-fluid" src="img/youg.jpeg" alt="Lana Del Ray">
+                            <h3>Lana Del Ray</h3>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="img/einaudi.jpeg" alt="Einaudi">
+                            <h3>Einaudi</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
     </div>
     <footer>
