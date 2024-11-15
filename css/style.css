@@ -202,7 +202,7 @@ main{
     font-size: 12px;
     padding-top: 4px;
 }
-.col{
+main .col{
     text-align: center;
     width: calc(100% / 2);
     padding: 4px;
@@ -251,13 +251,46 @@ main{
 }
 /*----CIRCLE-----*/
 .circle{
-    border-radius: 100px;
+    border-radius: 100%;
+    overflow: hidden;
 }
 /*-----FOOTER-----*/
 footer{
     height: 100px;
     background-color: #282828;
+    padding: 30px 10px;
+    color: white;
 }
+footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.album-footer{
+    height: 40px;
+}
+footer h6{
+    color: #808080;
+}
+footer .col{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+}
+.col .col-wrap{
+    padding-left: 8px;
+}
+.col-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+.col-wrap .col i{
+    font-size: 26px;
+    padding-right: 5px;
+}
+
+
 
 /*---RESPONSIVE-----*/
 
@@ -294,7 +327,7 @@ footer{
 /*---MEDIUM-----*/
 
 @media screen and (min-width:898px){
-    .col{
+    main .col{
         width: calc(100% / 4);
     }
 }
@@ -302,7 +335,7 @@ footer{
 /*---LARGE-----*/
 
 @media screen and (min-width:1222px){
-    .col{
+    main .col{
         width: calc(100% / 6);
     }
 }
