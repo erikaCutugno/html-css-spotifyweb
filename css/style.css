@@ -37,6 +37,9 @@ ul{
     cursor: pointer;
     font-size: 12px;
 }
+.btn:hover{
+    padding: 14px 36px;
+}
 
 /* .btn-primary{
     background-color:#0061fe;
@@ -73,7 +76,10 @@ h2{
     padding: 20px;
 }
 footer{
-    font-size: 12px;
+    font-size: 14px;
+}
+.icon{
+    color: #808080;
 }
 /*-----HEADER-----*/
 
@@ -236,12 +242,28 @@ main .col{
 .header-playlist li:hover,
 .header-playlist h4:hover,
 .app:hover,
-main a:hover{
-    color:white;
+main a:hover,
+.col-wrap .icon:hover{
+    color: white;
     cursor: pointer;
 }
+
 .header-playlist h4:hover i{
     background-color: white;
+}
+.footer-album h6:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+.footer-video i{
+    cursor: pointer;
+}
+.video{
+    cursor: pointer;
+}
+.video:hover .video-small{
+    background-color: #adff2f;
 }
 
 /*-----HOVER ALBUM-----*/
@@ -291,7 +313,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.footer-video, .footer-vocal{
+.footer-album, .footer-vocal{
     width: 25%;
 } 
 .footer-video{
