@@ -259,11 +259,24 @@ main a:hover,
 .footer-video i{
     cursor: pointer;
 }
+.footer-video span:nth-child(3) i:hover{
+    font-size: 34px;
+}
 .video{
     cursor: pointer;
 }
 .video:hover .video-small{
     background-color: #adff2f;
+}
+.orb{
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: white;
+    display: none;
+}
+.video:hover .orb{
+    display: block;
 }
 
 /*-----HOVER ALBUM-----*/
@@ -340,12 +353,16 @@ footer .col{
 .col-wrap i{
     padding-right: 10px;
 }
-.footer-center i{
-    font-size: 28px;
-    padding-bottom: 5px;
+.footer-center span:not(:nth-child(3)) i{
+    font-size: 18px;
+}
+.footer-center span:nth-child(3) i{
+    font-size: 30px;
 }
 .footer-center i{
     padding-right: 18px;
+    vertical-align: middle;
+    padding-bottom: 5px;
 }
 footer h6{
     color: #808080;
@@ -371,6 +388,11 @@ footer h6{
 }
 .footer-vocal{
     padding-left: 20px;
+}
+.video-small{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 /*---RESPONSIVE-----*/
 
