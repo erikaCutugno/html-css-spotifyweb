@@ -72,6 +72,9 @@ h2{
 .main-bottom{
     padding: 20px;
 }
+footer{
+    font-size: 12px;
+}
 /*-----HEADER-----*/
 
 header{
@@ -260,38 +263,69 @@ footer{
     background-color: #282828;
     padding: 30px 10px;
     color: white;
-}
-footer .row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.footer-video, .footer-vocal{
+    width: 25%;
+} 
+.footer-video{
+    width: 50%;;
 }
 .album-footer{
-    height: 40px;
+    height: 36px;
+}
+footer .col{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.col-wrap{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    padding: 0 10px;
+}
+.footer-center{
+    width: 100%;
+    text-align: center;
+}
+.col-wrap i{
+    padding-right: 10px;
+}
+.footer-center i{
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+.footer-center i{
+    padding-right: 18px;
 }
 footer h6{
     color: #808080;
 }
-footer .col{
-    display: flex;
-    gap: 10px;
-    text-align: left;
+.video{
+    height: 4px;
+    border-radius: 20px;
 }
-.col .col-wrap{
-    padding-left: 8px;
+.video-big{
+    background-color: #5a5a5a;
+    width: 100%;
 }
-.col-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px;
+.video-small{
+    background-color: #c1c1c1;
+    width: 20%;
 }
-.col-wrap .col i{
-    font-size: 26px;
-    padding-right: 5px;
+.col .footer-center span{
+    width: 20%;
 }
-
-
-
+.footer-vocal span{
+    width: 5%;
+    padding-right: 14px;
+}
+.footer-vocal{
+    padding-left: 20px;
+}
 /*---RESPONSIVE-----*/
 
 /*---SMALL-----*/
@@ -317,11 +351,7 @@ footer .col{
     }
     .profile{
         border-top: 1px solid #808080;
-    }
-    /* .col img{
-        height: 145px;
-    } */
-    
+    }    
 }
 
 /*---MEDIUM-----*/
