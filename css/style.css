@@ -89,6 +89,11 @@ header{
     text-align: center;
     overflow-y: auto;
 }
+.decoration-header{
+    border-left: 2px solid #adff2f;
+    
+    
+}
 .header-top img:not(.hide-logo){
     height: 24px;
     margin-bottom: 8px;
@@ -145,6 +150,7 @@ header h3{
 }
 .profile{
     padding-top: 10px;
+    color: white;
 }
 .logo .hide-logo:last-child {
     display: none;
@@ -193,7 +199,12 @@ main{
     color: #808080;
     font-weight: 400;
     font-size: 14px;
-    padding: 14px;
+    padding:24px;
+}
+.decoration{
+    border-bottom: 2px solid #adff2f;
+    width: 20%;
+    margin: auto;
 }
 .played h3{
     color: white;
@@ -220,7 +231,20 @@ main .col{
 .album-img{
     position: relative;
 }
-/*-----HOVER-----*/
+/*-----HOVER TESTO-----*/
+.header-nav li:hover,
+.header-playlist li:hover,
+.header-playlist h4:hover,
+.app:hover,
+main a:hover{
+    color:white;
+    cursor: pointer;
+}
+.header-playlist h4:hover i{
+    background-color: white;
+}
+
+/*-----HOVER ALBUM-----*/
 
 .album-img:hover .album-overlay{
     display: block;
