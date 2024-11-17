@@ -72,7 +72,6 @@ header{
     background-color: #000;
     flex-shrink: 0;
     color: #808080;
-    /* padding: 10px; */
     text-align: center;
     overflow-y: auto;
 }
@@ -121,12 +120,14 @@ header h3{
 .header-bottom i{
     font-size: 10px;
     margin-bottom: 10px;
-    color: white;
     border: 1px solid #808080;
     height: 12px;
     width: 12px;
-    border-radius: 50px;
+    border-radius: 100%;
     text-align: center;
+}
+.header-bottom .app:hover i{
+    border: 1px solid white;
 }
 .profile-img{
     background-color: #808080;
