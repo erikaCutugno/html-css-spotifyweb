@@ -81,8 +81,11 @@ header{
     margin-bottom: 8px;
     margin-left: auto;
     vertical-align: middle;
+    opacity: 0.4;
 }
-
+.header-nav li:hover img:not(.hide-logo){
+    opacity: 1;
+}
 .header-top:not(:first-child){
     margin-top: 10px;
 }
@@ -116,7 +119,6 @@ header h3{
 .header-playlist ul li{
     padding: 8px 0;
 }
-
 .header-bottom i{
     font-size: 10px;
     margin-bottom: 10px;
