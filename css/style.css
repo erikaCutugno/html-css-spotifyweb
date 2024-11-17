@@ -76,16 +76,20 @@ header{
     text-align: center;
     overflow-y: auto;
 }
-
 .header-top img:not(.hide-logo){
     height: 24px;
     margin-bottom: 8px;
     margin-left: auto;
     vertical-align: middle;
+}
+.header-nav li:not(:first-child) img{
     opacity: 0.4;
 }
 .header-nav li:hover img:not(.hide-logo){
     opacity: 1;
+}
+.header-nav li:first-child{
+    color: white;
 }
 .header-top:not(:first-child){
     margin-top: 10px;
