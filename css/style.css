@@ -13,7 +13,7 @@ body{
 
 .container-body{
     display: flex;
-    height:calc( 100% - 100px); 
+    height:calc( 100% - 6.25rem); 
 }
 .img-fluid{
     max-width: 100%;
@@ -30,15 +30,15 @@ ul{
 
 .btn{
     background-color: transparent;
-    border: 1px solid white;
+    border: .0625rem solid white;
     color: white;
-    border-radius: 50px;
-    padding: 10px 30px;
+    border-radius: 3.125rem;
+    padding: .625rem 1.875rem;
     cursor: pointer;
-    font-size: 12px;
+    font-size: .75rem;
 }
 .btn:hover{
-    padding: 14px 36px;
+    padding: .875rem 2.25rem;
 }
 
 /*---- TYPHOGRAPHY -----*/
@@ -48,17 +48,17 @@ body{
 
 }
 header{
-    font-size: 12px;
+    font-size: .75rem;
 }
 h2{
     color: white;
-    padding: 10px 0;
+    padding: .625rem 0;
 }
 .main-bottom{
-    padding: 20px;
+    padding: 1.25rem;
 }
 footer{
-    font-size: 14px;
+    font-size: .875rem;
 }
 .icon{
     color: #808080;
@@ -69,7 +69,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width:50px;
+    width:3.125rem;
     background-color: #000;
     flex-shrink: 0;
     color: #808080;
@@ -77,8 +77,8 @@ header{
     overflow-y: auto;
 }
 .header-top img:not(.hide-logo){
-    height: 24px;
-    margin-bottom: 8px;
+    height: 1.5rem;
+    margin-bottom: .5rem;
     margin-left: auto;
     vertical-align: middle;
 }
@@ -92,14 +92,14 @@ header{
     color: white;
 }
 .header-top:not(:first-child){
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 h4 i{
     background-color: #a3a3a3;
-    height: 30px;
-    width: 30px;
-    padding: 5px 0;
-    font-size: 20px;
+    height: 1.875rem;
+    width: 1.875rem;
+    padding: .3125rem 0;
+    font-size: 1.25rem;
     text-align: center;
     vertical-align: middle;
 }
@@ -107,53 +107,53 @@ h4{
     display: inline-block;
 }
 header span{
-    padding-left: 5px;
+    padding-left: .3125rem;
 }
 .header-top ul{
-    margin-top: 10px;
+    margin-top: .625rem;
 }
 header h3{
     color: white;
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-size: .875rem;
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
 }
 .header-playlist >*{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 .header-playlist ul li{
-    padding: 8px 0;
+    padding: .5rem 0;
 }
 .header-bottom i{
-    font-size: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #808080;
-    height: 12px;
-    width: 12px;
+    font-size: .625rem;
+    margin-bottom: .625rem;
+    border: .0625rem solid #808080;
+    height: .75rem;
+    width: .75rem;
     border-radius: 100%;
     text-align: center;
 }
 .header-bottom .app:hover i{
-    border: 1px solid white;
+    border: .0625rem solid white;
 }
 .profile-img{
     background-color: #808080;
-    width: 24px;
-    height: 24px;
-    border-radius: 50px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3.125rem;
     vertical-align: middle;
 }
 .profile{
-    padding: 10px;
+    padding: .625rem;
     color: white;
 }
 .logo .hide-logo:last-child {
     display: none;
 }
 .hide-logo{
-    height: 24px;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    height: 1.5rem;
+    margin-bottom: .625rem;
+    margin-top: .3125rem;
 }
 .hide{
     display: none;
@@ -170,7 +170,7 @@ main{
     overflow-y: auto;
 }
 .main-top{
-    height: 80px;
+    height: 5rem;
     background-color: #080b12;
     position: sticky;
     top:0;
@@ -181,44 +181,44 @@ main{
 
 .main-top .btn{
     text-align: right;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 .info .row{
     justify-content: center;
 }
 .main-bottom li{
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 .main-bottom a{
     text-decoration: none;
     color: #808080;
     font-weight: 400;
-    font-size: 14px;
-    padding:24px;
+    font-size: .875rem;
+    padding:1.5rem;
 }
 .decoration{
-    border-bottom: 2px solid #adff2f;
+    border-bottom: .125rem solid #adff2f;
     width: 20%;
     margin: auto;
 }
 .played h3{
     color: white;
-    font-size: 16px;
-    padding-top: 4px;
+    font-size: 1rem;
+    padding-top: .25rem;
 }
 .played h5{
     color: #808080;
-    font-size: 12px;
-    padding-top: 4px;
+    font-size: .75rem;
+    padding-top: .25rem;
 }
 main .col{
     text-align: center;
     width: calc(100% / 2);
-    padding: 4px;
+    padding: .25rem;
 }
 
 .album-details{
-    padding: 4px;
+    padding: .25rem;
 }
 .album{
     text-align: center;
@@ -242,14 +242,14 @@ main a:hover,
 }
 .footer-album h6:hover{
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: .0625rem solid white;
     cursor: pointer;
 }
 .footer-video i{
     cursor: pointer;
 }
 .footer-video span:nth-child(3) i:hover{
-    font-size: 34px;
+    font-size: 2.125rem;
 }
 .video{
     cursor: pointer;
@@ -258,8 +258,8 @@ main a:hover,
     background-color: #adff2f;
 }
 .orb{
-    height: 16px;
-    width: 16px;
+    height: 1rem;
+    width: 1rem;
     border-radius: 100%;
     background-color: white;
     display: none;
@@ -290,7 +290,7 @@ main a:hover,
 .album-overlay i{
     display: none;
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -307,9 +307,9 @@ main a:hover,
 }
 /*-----FOOTER-----*/
 footer{
-    height: 100px;
+    height: 6.25rem;
     background-color: #282828;
-    padding: 30px 10px;
+    padding: 1.875rem .625rem;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -322,43 +322,43 @@ footer{
     width: 50%;;
 }
 .album-footer{
-    height: 36px;
+    height: 2.25rem;
 }
 footer .col{
     display: flex;
-    gap:10px;
+    gap:.625rem;
     align-items: center;
 }
 .col-wrap{
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 .625rem;
 }
 .footer-center{
     width: 100%;
     text-align: center;
 }
 .col-wrap i{
-    padding-right: 10px;
+    padding-right: .625rem;
 }
 .footer-center span:not(:nth-child(3)) i{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .footer-center span:nth-child(3) i{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .footer-center i{
-    padding-right: 18px;
+    padding-right: 1.125rem;
     vertical-align: middle;
-    padding-bottom: 5px;
+    padding-bottom: .3125rem;
 }
 footer h6{
     color: #808080;
 }
 .video{
-    height: 4px;
-    border-radius: 20px;
+    height: .25rem;
+    border-radius: 1.25rem;
 }
 .video-big{
     background-color: #5a5a5a;
@@ -373,10 +373,10 @@ footer h6{
 }
 .footer-vocal span{
     width: 5%;
-    padding-right: 14px;
+    padding-right: .875rem;
 }
 .footer-vocal{
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 .video-small{
     display: flex;
@@ -387,16 +387,16 @@ footer h6{
 
 /*---SMALL-----*/
 
-@media screen and (min-width:619px) {
+@media screen and (min-width:38.6875rem) {
     header{
-        width: 230px;
+        width: 14.375rem;
         text-align: left;
     }
     .hide-logo{
-        height: 40px;
-        margin-bottom: 20px;
-        margin-left: 20px;
-        margin-top: 20px;
+        height: 2.5rem;
+        margin-bottom: 1.25rem;
+        margin-left: 1.25rem;
+        margin-top: 1.25rem;
     }
     .logo .hide-logo:last-child {
         display: inline;
@@ -408,25 +408,25 @@ footer h6{
         display: inline;
     }
     .header-nav li{
-        padding-left: 18px;
-        border-left: 2px solid transparent;
+        padding-left: 1.125rem;
+        border-left: .125rem solid transparent;
     }
     .header-nav li:first-child{
         border-color: #adff2f;
     }
     .profile{
-        border-top: 1px solid #808080;
-        padding:10px 0;
-        margin: 0 20px;
+        border-top: .0625rem solid #808080;
+        padding:.625rem 0;
+        margin: 0 1.25rem;
     }    
     .app{
-        padding-left: 20px;
+        padding-left: 1.25rem;
     }
 }
 
 /*---MEDIUM-----*/
 
-@media screen and (min-width:898px){
+@media screen and (min-width:56.125rem){
     main .col{
         width: calc(100% / 4);
     }
@@ -434,7 +434,7 @@ footer h6{
 
 /*---LARGE-----*/
 
-@media screen and (min-width:1222px){
+@media screen and (min-width:76.375rem){
     main .col{
         width: calc(100% / 6);
     }
