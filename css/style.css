@@ -40,12 +40,17 @@ ul{
 .btn:hover{
     padding: .875rem 2.25rem;
 }
+.btn-header{
+    background-color: #a3a3a3;
+    border: none;
+    padding: .375rem .5rem;
+    font-size: 1.125rem;
+}
 
 /*---- TYPHOGRAPHY -----*/
 
 body{
     font-family: "Figtree", sans-serif;
-
 }
 header{
     font-size: .75rem;
@@ -93,15 +98,6 @@ header{
 }
 .header-top:not(:first-child){
     margin-top: .625rem;
-}
-h4 i{
-    background-color: #a3a3a3;
-    height: 1.875rem;
-    width: 1.875rem;
-    padding: .3125rem 0;
-    font-size: 1.25rem;
-    text-align: center;
-    vertical-align: middle;
 }
 h4{
     display: inline-block;
@@ -181,7 +177,6 @@ main{
     z-index: 100;
     text-align: right;
 }
-
 .main-top .btn{
     text-align: right;
     margin-top: 1.25rem;
@@ -219,7 +214,6 @@ main .col{
     width: calc(100% / 2);
     padding: .25rem;
 }
-
 .album-details{
     padding: .25rem;
 }
@@ -239,8 +233,7 @@ main a:hover,
     color: white;
     cursor: pointer;
 }
-
-.header-playlist h4:hover i{
+.header-playlist h4:hover .btn-header{
     background-color: white;
 }
 .footer-album h6:hover{
