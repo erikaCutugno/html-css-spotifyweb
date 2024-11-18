@@ -235,6 +235,7 @@ main a:hover,
 }
 .header-playlist h4:hover .btn-header{
     background-color: white;
+    cursor: pointer;
 }
 .footer-album h6:hover{
     color: white;
