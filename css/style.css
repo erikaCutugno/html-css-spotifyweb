@@ -363,6 +363,12 @@ footer h6{
     background-color: #c1c1c1;
     width: 20%;
 }
+.footer-center .video-small{
+    width: 20%;
+}
+.footer-vocal .video-small{
+    width: 40%;
+}
 .col .footer-center span{
     width: 20%;
 }
