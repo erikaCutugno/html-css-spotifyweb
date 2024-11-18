@@ -84,7 +84,6 @@ header{
 .header-top img:not(.hide-logo){
     height: 1.5rem;
     margin-bottom: .5rem;
-    margin-left: auto;
     vertical-align: middle;
 }
 .header-nav li:not(:first-child) img{
@@ -148,7 +147,6 @@ header h3{
 }
 .hide-logo{
     height: 1.5rem;
-    margin-bottom: .625rem;
     margin-top: .3125rem;
 }
 .hide{
